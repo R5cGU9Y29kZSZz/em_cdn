@@ -1,0 +1,6 @@
+body .layer-ext-yourskin{background:url(layer_bj.jpg) no-repeat;background-size:100% 100%;}
+body .layer-ext-yourskin .layui-layer-title{font-size:0;background:none;border:none;}
+body .layui-ext-yourskin .layui-layer-btn{}
+body .layui-ext-yourskin .layui-layer-btn a{}
+body .layui-ext-yourskin .layui-layer-setwin a.layui-layer-close1{background:url(layer_bj.jpg) no-repeat !important;}
+body .layui-ext-yourskin .layui-layer-setwin a.layui-layer-close2{background:url(layer_btn.png) no-repeat !important;}

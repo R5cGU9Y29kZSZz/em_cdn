@@ -1,0 +1,39 @@
+html{min-width: 320px;}
+body {margin:0; padding:0; font:12px"\5B8B\4F53",sans-serif;background: rgb(23,27,30);font-family:黑体;min-width: 320px;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+button{font-family:黑体;}
+a{text-decoration: none;}
+
+.video_area{
+    width: 3rem;
+    height: auto;
+    position: relative;
+    margin:.46rem auto .05rem auto;
+
+}
+.tt-video{
+    width: 100%;
+    position: relative;
+    margin: .1rem auto;
+}
+.pone{
+	color:#6C7D9B;
+	font-size: .14rem;
+	line-height: .24rem;
+	font-weight: bold;
+}
+.ptwo{
+	color:#6C7D9B;
+	font-size: .12rem;
+}
+.gonow{
+	display: block;
+	height: .4rem;
+	margin: .1rem auto;
+}

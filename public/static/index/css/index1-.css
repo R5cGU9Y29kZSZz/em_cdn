@@ -1,0 +1,53 @@
+.wraper {
+  min-height: 100%;
+  background:rgb(23,27,30);
+}
+
+.wraper-main {
+  padding: 0.1rem;
+  padding-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top:.45rem;
+}
+
+th {
+  font-size: 0.14rem;
+  /* background: #151C2F; */
+}
+
+tr {
+  height: 0.4rem;
+  /* line-height: 0.4rem; */
+  color: #92A8D1;
+  text-align: center;
+}
+tr img {
+  width: 0.1rem;
+  height: 0.1rem;
+}
+tr:nth-child(odd) {
+  background: rgb(23,27,30);
+}
+tr:nth-child(even) {
+  background: rgba(255,255,255,0.1);
+}
+tr th:first-child {
+  min-width: 0.5rem;
+}
+tr th:nth-child(2) {
+  min-width: 0.2rem;
+}
+tr td {
+  font-size: 0.12rem;
+}
+tr td:last-child{
+  max-width: 4rem;
+  word-wrap:break-word;
+  overflow:hidden;
+  word-break:break-all;
+}

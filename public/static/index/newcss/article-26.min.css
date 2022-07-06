@@ -1,0 +1,414 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px"\5B8B\4F53", sans-serif;
+	font-family: "microsoft yahei";
+	
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+p {
+	padding: 0;
+	margin: 0;
+	-webkit-margin-before: 0;
+}
+
+table,
+td,
+tr,
+th {
+	font-size: 12px;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	vertical-align: top;
+	border: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+address,
+cite,
+code,
+em,
+th {
+	font-weight: normal;
+	font-style: normal;
+}
+
+button {
+	font-family: ;
+}
+
+input::-webkit-input-placeholder {
+	color: gainsboro;
+	font-size: .12rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	font-size: .12rem;
+	font-weight: normal;
+}
+body {
+	margin:0 auto;
+	font-family: Helvetica,STHeiti,Droid Sans Fallback;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+	max-width: 640px;
+	position: relative;
+	background: rgb(23,27,30);
+}
+h2 {
+	font-size: 1.125rem;
+	color: #333;
+	margin-bottom: 1rem
+}
+textarea {
+	resize: none
+}
+iframe,img {
+	border: 0
+}
+ol,ul {
+	list-style: none
+}
+input,select,textarea {
+	outline: 0;
+	-webkit-user-modify: read-write-plaintext-only
+}
+input {
+	-webkit-appearance: none
+}
+a {
+	text-decoration: none
+}
+.global {
+	min-width: 320px;
+	width: 100%;
+	overflow-x: hidden;
+	margin-top: .28rem;
+}
+.primary {
+	padding: 0px 13px 0 13px;
+	position: relative
+}
+
+.primary .title {
+	font-size: .16rem;
+	color: #898d90;
+	padding: 18px 0 11px;
+	line-height: 31px;
+	font-weight: 700
+}
+
+.primary .meta {
+	margin-bottom: .1rem;
+	color: #888;
+	height: .3rem;
+	
+}
+.authorpic{
+	height: .3rem;
+	width: .3rem;
+	vertical-align: middle;
+	border-radius: .4rem;
+	display: inline-block;
+	margin-right: .05rem;
+}
+.moreinfo{
+	display: inline-block;
+	vertical-align: middle;
+	height: .3rem;
+}
+.primary .author {
+	font-size: .12rem;
+	line-height: .16rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+	vertical-align: top;
+}
+
+.primary .pubtime {
+	font-size: .10rem;
+	line-height: .14rem;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+	font-family: Helvetica
+}
+.type{
+	float: right;
+	line-height: .16rem;
+	padding: 0 .05rem;
+	background: black;
+	font-size: .10rem;
+	height: .16rem;
+	border-radius: .02rem;
+	margin-top: .07rem;
+	color: white;
+}
+.abstract{
+	font-size: .12rem;
+	line-height: .22rem;
+	padding: .1rem;	
+	background-color: rgba(0,0,0,0.1);
+	margin-bottom: .15rem;
+	margin-top: .15rem;
+	color: #898d90;
+}
+.fenrun{
+    position: relative;	
+}
+.baifen{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: white;	
+}
+.one{
+	top: .1rem;
+}
+.two{
+	top: .5rem;
+}
+.three{
+	top: .95rem;
+}
+.fudong{
+	display: inline-block;
+	position: absolute;
+	color: #898d90;	
+}
+.fuone{
+	top: .1rem;
+	left: .1rem;
+}
+.futwo{
+	top: .3rem;
+	right: 0;
+}
+.futhree{
+	top: .5rem;
+	left: 0;
+}
+.fufour{
+	top: .7rem;
+	right: 0;
+}
+.fufive{
+	top: .9rem;
+	left: 0;
+}
+.fusix{
+	top: 1.1rem;
+	right: 0;
+}
+.fuseven{
+	top: 1.3rem;
+	left: 0;
+}
+.primary .cont {
+	padding-bottom: 15px;
+	font-size: .13rem;
+	line-height: .22rem;
+}
+
+.primary .cont .text {
+	
+	word-wrap: break-word;
+	margin-bottom: .1rem;
+	text-align: justify;
+	word-break: break-all;
+	color: #898d90;
+}
+.strong{
+	font-weight: bold;
+}
+.cont img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	border-radius: .03rem;
+}
+
+.text a,p a {
+	border-bottom: 1px dashed #448aff;
+	color: #448aff
+}
+
+.imgglobal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	display: none;
+	background: rgba(0,0,0,.8)
+}
+
+.imgglobalshow {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: -o-box;
+	-o-box-orient: horizontal;
+	-o-box-pack: center;
+	-o-box-align: center;
+	display: -ms-box;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-ms-box-align: center;
+	display: box;
+	box-orient: horizontal;
+	box-pack: center;
+	box-align: center
+}
+
+.imgglobal span {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: url(//mat1.gtimg.com/www/mobi/image/closed_icon.png) no-repeat 0 0;
+	-webkit-background-size: 34px 34px;
+	-moz-background-size: 34px 34px;
+	-o-background-size: 34px 34px;
+	background-size: 34px 34px;
+	z-index: 9
+}
+
+.imgglobal img {
+	max-width: 100%;
+	z-index: 8
+}
+
+
+
+.download
+{
+	width: 96%;
+    padding: .1rem 2%;
+    background: rgba(255,255,255,1);
+    border-top: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 0;
+}
+
+.download img
+    {
+    	width:.34rem;
+    	height: .34rem;
+    	float: left;
+    	border-radius: .03rem;
+    }
+.info{
+	padding-left: .44rem;
+	padding-right:5px ;
+	position: relative;
+
+}
+.goodinfo
+    {
+       line-height: .16rem;
+       color:darkgray;
+       font-size: .10rem;
+    }
+
+.goodname
+    {
+    	color: black;
+    	line-height: .18rem;
+    	font-size: .12rem;
+    	display: block;
+    }
+
+.statusone
+{
+	position: absolute;
+	top: .04rem;
+	right: .05rem;
+	border: 1px solid black;
+	padding: 0 .07rem;
+	color: white;
+	background: black;
+	font-size: .12rem;
+	line-height: .22rem;
+	border-radius: .02rem;
+	
+}
+.statustwo
+{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	color: black;
+	font-size: 12px;
+	line-height: 20px;
+	
+}
+.jiage
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: darkgoldenrod;
+	font-size: 13px;
+	line-height: 24px;
+	
+}

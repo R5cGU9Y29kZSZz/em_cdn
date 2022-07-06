@@ -1,0 +1,41 @@
+.collapse .collapse-item {
+  background: #151c2f;
+  margin-bottom: 0.2rem;
+}
+.collapse .collapse-item .item-title {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  color: #92A8D1;
+  padding-left: 0.1rem;
+  position: relative;
+}
+.collapse .collapse-item .item-title > span {
+  position: absolute;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  top: 0;
+  right: 0.1rem;
+}
+.collapse .collapse-item .item-title > span img {
+  width: 0.15rem;
+  height: 0.13rem;
+}
+.collapse .collapse-item .item-content {
+  font-size: 0.12rem;
+  color: #fff;
+  line-height: 0.18rem;
+  background: rgb(23,27,30);
+  padding: 0.05rem 0 0.05rem 0.1rem;
+}
+.collapse .collapse-item .item-content .content2 {
+  height: 0.3rem;
+}
+
+.wraper {
+  min-height: 100%;
+  background: rgb(23,27,30);
+}
+.wraper .wraper-question {
+  padding: 0.16rem 0.1rem;
+}

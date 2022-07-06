@@ -1,0 +1,120 @@
+body {margin:0; padding:0; font:12px"\5B8B\4F53",sans-serif;background:#ffffff;font-family:黑体;background: #898d90;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+button{font-family:黑体;}
+a{text-decoration: none;}
+html
+	{
+		height: 100%;
+		width: 100%;
+    background: rgb(23,27,30);
+		
+	}
+body{
+	width: 100%;
+	height: 100%;
+    background: rgb(23,27,30);
+	position: absolute;
+}
+.choose{
+	background: rgba(255,255,255,0.05);
+	width: 3rem;
+	margin: .45rem auto 0 auto;
+    border-bottom:1px solid rgba(255,255,255,0.02);		
+}
+.type{
+	display: inline-block;
+	line-height: .4rem;
+	font-size: .14rem;
+	width:49%;
+	text-align: center;
+	color: white;
+}
+.select{
+	color:cornflowerblue;
+	font-weight: bold;
+	background: rgba(0,0,0,0.1);
+}
+.fanyong{
+	float: right;
+}
+.main{
+	width: 3rem;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+.ulcode
+{
+	display: inline-block;
+	width: 3rem;
+    margin: 0 auto 0 auto;
+	background: rgba(255,255,255,0.05);
+	position: absolute;
+    top: 0;    
+}
+.ulone{
+	
+}
+.ultwo{
+	display: none;
+}
+.code
+{
+	width: 2.8rem;
+    padding: .1rem .1rem;
+    border-radius: 1px;
+    /*background-color: #242833;*/
+    border-bottom:1px solid rgba(255,255,255,0.02);
+    position: relative;
+}
+.rank{
+	position: absolute;
+	top: .07rem;
+	left: .05rem;
+	width: .15rem;
+	height: .15rem;
+	border-radius: .15rem;
+	background: gray;
+	line-height: .15rem;
+	text-align: center;
+	color: white;
+	font-size: .09rem;
+}
+.top{
+	background: orangered;
+}
+/*.rank:nth-child(2){
+	background: orangered;
+}
+.rank:nth-child(3){
+	background: orangered;
+}*/
+.code img
+    {
+    	width:.3rem;
+    	height: .3rem;
+    	vertical-align: middle;
+    	border-radius: .4rem;
+    	border: 1px solid coral;
+    	margin-right: .05rem;
+    }
+.goodname
+    {
+       line-height: .3rem;
+       color:darkgray;
+       font-size: .12rem;
+       vertical-align: middle;
+    }
+.statusone
+{
+	position: absolute;
+	right: .1rem;
+	color: white;
+	font-size: .12rem;
+	line-height: .4rem;	
+}

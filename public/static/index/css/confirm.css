@@ -1,0 +1,62 @@
+.wraper-point {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.wraper-point .confirm-wraper {
+  border-radius: 0.12rem;
+  width: 2.7rem;
+  height: 1.6rem;
+  background: #1C2339;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.wraper-point .confirm-wraper .button-wraper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.43rem;
+  width: 100%;
+  border-top: 0.01rem solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+.wraper-point .confirm-wraper .button-wraper button {
+  float: left;
+  outline: none;
+  border: none;
+  background: #1C2339;
+  width: 1.35rem;
+  height: 0.43rem;
+  font-size: 0.16rem;
+  color: #fff;
+  padding: 0;
+}
+.wraper-point .confirm-wraper .button-wraper button:first-child {
+  border-right: 0.01rem solid #494f60;
+}
+.wraper-point .confirm-wraper .confirm-title {
+  font-size: 0.18rem;
+  color: #fff;
+  padding-top: 0.2rem;
+  text-align: center;
+}
+.wraper-point .confirm-wraper .single {
+  margin-top: 0.24rem;
+  font-size: 0.12rem;
+  text-align: center;
+  color: #fff;
+}
+.wraper-point .confirm-wraper .invitation {
+  margin-top: 0.15rem;
+  font-size: 0.12rem;
+  color: #fff;
+  line-height: 0.18rem;
+  text-align: center;
+}

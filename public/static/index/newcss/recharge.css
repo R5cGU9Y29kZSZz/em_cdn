@@ -1,0 +1,225 @@
+body {margin:0; padding:0; font:12px"\5B8B\4F53",sans-serif;font-family:黑体;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+button{font-family:黑体;}
+a{text-decoration: none;}
+html
+	{
+		height: 100%;
+		width: 100%;
+		font-size: 87.5%;
+	}
+html {
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-font-smoothing:antialiased;
+	width: 100%;
+	position: relative;
+	
+}	
+body{
+	width: 100%;
+	background-size: 100% auto;
+	background:  rgb(23,27,30);
+}
+.topgirl{
+	width: 94%;
+	margin: .45rem 3% .1rem 3%;
+	border-radius: .03rem;
+}
+.titleout
+{
+	width: 90%;
+	text-align: left;
+	margin: .5rem auto .1rem auto;
+	padding-left:.06rem ;
+}
+.title
+{
+	display: inline-block;
+	font-size: .14rem;
+	line-height: .2rem;
+	color:gainsboro;
+	margin: .05rem auto;
+}
+.type
+{
+	width: 100%;
+	margin: 0 0 .15rem 0;
+	text-align: center;
+}
+.money
+{
+	display: inline-block;
+	padding: .03rem ;
+	margin: .05rem .05rem;
+	border: 1px solid #3F444A;
+	border-radius: .02rem;
+	color:gold;
+     font-weight:bold;
+	font-size: .14rem;
+	position: relative;
+	width: 25%;
+	line-height: .2rem;
+}
+.money_se
+{
+	background: #597390;
+	
+	border: .01rem solid #597390;	
+}
+.paytype{
+	margin-top: 10px;
+	display: block;
+	display: flex;
+	width: 89%;
+	margin: 0 auto;
+}
+.wechat ,.alipay ,.service{
+	display: inline-block;
+	border: 1px solid gainsboro;
+	padding: .05rem 0;
+	vertical-align: middle;
+	border-radius: 2px;
+	background: gainsboro;
+	text-align: center;
+	width: 100%;
+	
+}
+.wechat{
+	margin-right:.05rem;
+}
+.select{
+	border: 1px solid orangered;
+}
+.paytype img{
+	height: .24rem;
+	width: auto;
+}
+.confirm_recharge{
+	width: 90%;
+	line-height: .4rem;
+	color: white;
+	background-color:#597390;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: .02rem;
+	margin-top: .2rem;
+	font-size: .14rem;
+}
+.safe_connect{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:.4rem;
+}
+.safe_connect span{
+	color: #9C9C9C;
+	font-size: .14rem;
+	line-height: .24rem;
+	vertical-align: middle;
+	margin-right: .05rem;
+}
+.copy{
+	padding: .0rem .1rem;
+	margin: .05rem auto;
+	color: white;
+    background: url(../images/indexbtn2.png);
+    background-size: 100% 100%;
+	text-align: center;
+	font-size: .14rem;
+	line-height: .34rem;
+	display:block;	
+	width:1.4rem;
+	border-raduis:.03rem;
+}
+
+/*场外交易效果*/
+
+.redout {
+	width:100%;
+	height:100%;
+	max-width: 640px;
+    background:white ;
+	background-size: 100% auto;
+	position:fixed;
+	top: 120%;
+	*zoom:1;
+	z-index:5000;
+	visibility:visible;	
+}
+.out
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px 0;
+	border-bottom:1px solid whitesmoke;
+	background: white;
+	text-align: center;
+}
+.outtitle
+{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 26px;
+	color: limegreen;
+	margin-left: 10px;
+	text-align: right;
+}
+.id
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0;
+	background: white;
+	height: 20px;
+}
+.user{
+	margin-left: 10px;
+	font-size: 13px;
+	line-height: 20px;	
+}
+
+.cover{
+	width: 60%;
+	display: block;
+	margin: 20px auto 0px auto;
+}
+.note{
+    margin: .2rem auto;
+    width: 80%;
+    font-size: 13px;
+    color: orangered;
+    line-height: 18px;
+    border: 1px dotted orange;
+    padding: 0 .1rem;
+}
+.close{
+	width: .3rem;
+	margin-top: .15rem;
+	border: 1px darkgray solid;
+	border-radius: 1rem;
+}
+.paynow
+{
+	width: 80%;
+	margin: .1rem auto;	
+	display: block;
+	text-align: center;
+	line-height: .4rem;
+	color: white;
+	font-size:.16rem;
+	background: limegreen;	
+	border-radius: .02rem;
+	box-shadow: 0px 16px 47px -15px black;
+	-webkit-animation: pointRadius 1s ease 0s infinite;
+    animation: pointRadius 1s ease 0s infinite;
+}

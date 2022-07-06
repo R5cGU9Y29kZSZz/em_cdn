@@ -1,0 +1,21 @@
+.wraper-head{
+  height: 0.44rem;
+  background:#2c2b31;
+  font-size: 0.17rem;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height: 0.44rem;
+  text-align: center;
+  position: relative;
+}
+.icon{
+  position: absolute;
+  width: 0.17rem;
+  height: 0.17rem;
+  left: 0.15rem;
+  top: -0.02rem;
+}
+i{
+  width: 100%;
+}

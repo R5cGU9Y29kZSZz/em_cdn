@@ -2,7 +2,7 @@
 html{
 	background: rgb(23,27,30) ;
 	max-width: 640px !important;
-	margin： 0 auto;
+	margin: 0 auto;
 	position:relative;
 }
 body{
@@ -28,7 +28,7 @@ body{
 	display: flex;
 	flex-direction:row;
 	width: 100%;
-	text-align: center;	
+	text-align: center;
 	}
  .foot div:nth-child(1)
      {flex: 1;}
@@ -42,7 +42,7 @@ body{
 	{
 		width: .16rem;
 		height: .16rem;
-		margin-top :.08rem;	
+		margin-top :.08rem;
 	}
 .tabtitle
 	{
@@ -78,15 +78,15 @@ body{
 	position: absolute;
 	left: .05rem;
 	top: .08rem;
-	
+
 }
 .backto span{
 	line-height: .2rem;
 	color: white;
 	font-size: .13rem;
 	text-align: center;
-	
-	
+
+
 }
 .outtoast {
 	position: absolute;
